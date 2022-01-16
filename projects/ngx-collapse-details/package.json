@@ -1,0 +1,21 @@
+{
+  "name": "ngx-collapse-details",
+  "version": "0.0.1",
+  "author": "joselia",
+  "license": "MIT",
+  "description": "Component collapse Angular, but using native HTML properties.",
+  "keywords": [
+    "Angular",
+    "Component",
+    "Library",
+    "Collapse",
+    "lib"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^12.0.5",
+    "@angular/core": "^12.0.5"
+  },
+  "dependencies": {
+    "tslib": "^2.1.0"
+  }
+}
