@@ -1,6 +1,16 @@
 {
   "name": "ngx-collapse-details",
   "version": "0.0.0",
+  "author": "joselia",
+  "license": "MIT",
+  "description": "Component collapse Angular, but using native HTML properties.",
+  "keywords": [
+    "Angular",
+    "Component",
+    "Library",
+    "Collapse",
+    "lib"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

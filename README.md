@@ -1,27 +1,81 @@
 # NgxCollapseDetails
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
+Angular component for extra content
 
-## Development server
+![npm](https://img.shields.io/npm/v/ngx-collapse-details)
+![NPM](https://img.shields.io/npm/l/ngx-collapse-details)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![details](https://user-images.githubusercontent.com/33287490/149425680-230cacb4-85f9-4dfd-9ad8-eb5be691f4c0.PNG)
 
-## Code scaffolding
+## How to install
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Below are ways to install the library using npm or yarn:
 
-## Build
+```
+npm i ngx-summary-details
+# or
+ng add ngx-summary-details
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## How to use default component
 
-## Running unit tests
+<h6>First we need to import ours into some module to be used<h6>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```jsx
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
+import { NgxCollapseDetailsComponent } from "ngx-collapse-details";
+import { AppComponent } from "./app.component";
+@NgModule({
+  declarations: [AppComponent],
+  imports: [BrowserModule, NgxCollapseDetailsComponent],
+  providers: [],
+  bootstrap: [AppComponent],
+})
+export class AppModule {}
+```
 
-## Running end-to-end tests
+```jsx
+<ngx-summary-details>
+  <ul>
+    <li>Teste 1</li>
+    <li>Teste 2</li>
+  </ul>
+</ngx-summary-details>
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice.
+## How to use custom component
 
-## Further help
+```jsx
+<ngx-summary-details
+  summary="Teste"
+  width="60%"
+  bgColor="#555"
+  color="orange"
+  borderRadius="5px 10px 15px 20px"
+  bgHover="purple"
+  boxShadow="0 0 5px 5px orange"
+  colorHover="blue"
+>
+  <ul>
+    <li>Teste 1</li>
+    <li>Teste 2</li>
+  </ul>
+</ngx-summary-details>
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Properties
+
+This component is an abstraction of a collapse, but using native HTML properties.
+
+| Props        | type   | required | Description                       |
+| ------------ | ------ | -------- | --------------------------------- |
+| width        | string |          |                                   |
+| summary      | string |          |                                   |
+| bgColor      | string |          | Background color of summary       |
+| bgHover      | string |          | Background color hover of summary |
+| color        | string |          | Color of summary                  |
+| colorHover   | string |          | Color hover of summary            |
+| borderRadius | string |          | Border radius of summary          |
+| border       | string |          | Border of summary                 |
+| boxShadow    | string |          | Box shadow of summary             |
