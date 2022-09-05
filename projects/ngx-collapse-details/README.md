@@ -1,5 +1,8 @@
 # NgxCollapseDetails
 
+
+![logo-details](https://user-images.githubusercontent.com/33287490/188509659-b70a7b57-889a-4158-9353-1b7908e3f6c4.png)
+
 <div style="display: inline_block">
     <img align="center" alt="js" src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" /> 
 </div>
