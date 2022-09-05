@@ -40,7 +40,7 @@ import {
       summary {
         padding: 0.9em;
         margin-bottom: 1em;
-        // margin: 0 calc(0.625rem * -1);
+       /* margin: 0 calc(0.625rem * -1); */
         cursor: pointer;
         outline: none;
         font-weight: bold;

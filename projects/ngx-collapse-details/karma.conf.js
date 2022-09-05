@@ -3,6 +3,16 @@
 
 module.exports = function (config) {
   config.set({
+    browsers: [
+      'ChromeDebugging'
+    ],
+
+    customLaunchers: {
+      ChromeDebugging: {
+        base: 'Chrome',
+        flags: [ '--remote-debugging-port=9333' ]
+      }
+    },
     basePath: '',
     frameworks: ['jasmine', '@angular-devkit/build-angular'],
     plugins: [
@@ -25,7 +35,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, '../../coverage/ngx-collapse-details'),
+      dir: require('path').join(__dirname, '../../coverage/ngx-jabuti-grid'),
       subdir: '.',
       reporters: [
         { type: 'html' },

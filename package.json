@@ -1,6 +1,6 @@
 {
   "name": "ngx-collapse-details",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "author": "joselia",
   "license": "MIT",
   "description": "Component collapse Angular, but using native HTML properties.",
@@ -21,7 +21,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "test-covarage": "ng test --watch=false --sourceMap=true --codeCoverage=true --browsers ChromeHeadless"
+
   },
   "private": true,
   "dependencies": {
