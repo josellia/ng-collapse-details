@@ -1,6 +1,9 @@
 # NgxCollapseDetails
 
 Angular component for extra content
+<div style="display: inline_block">
+    <img align="center" alt="js" src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" /> 
+</div>
 
 ![npm](https://img.shields.io/npm/v/ngx-collapse-details)
 ![NPM](https://img.shields.io/npm/l/ngx-collapse-details)
