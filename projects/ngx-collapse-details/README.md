@@ -1,10 +1,11 @@
 # NgxCollapseDetails
 
-Angular component for e![logo-details](https://user-images.githubusercontent.com/33287490/188509399-b641e0a8-32b4-4899-8b7e-b24f32765586.png)
-xtra content
 <div style="display: inline_block">
     <img align="center" alt="js" src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" /> 
 </div>
+
+#Angular component for extra content
+
 
 ![npm](https://img.shields.io/npm/v/ngx-collapse-details)
 ![NPM](https://img.shields.io/npm/l/ngx-collapse-details)
