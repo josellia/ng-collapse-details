@@ -21,8 +21,6 @@ Below are ways to install the library using npm or yarn:
 
 ```
 npm i ngx-summary-details
-# or
-ng add ngx-summary-details
 ```
 
 ## How to use default component
@@ -78,7 +76,7 @@ This component is an abstraction of a collapse, but using native HTML properties
 
 | Props        | type   | required | Description                       |
 | ------------ | ------ | -------- | --------------------------------- |
-| width        | string |          |                                   |
+| width        | string |          | width of collapse                 |
 | summary      | string |          |                                   |
 | bgColor      | string |          | Background color of summary       |
 | bgHover      | string |          | Background color hover of summary |
