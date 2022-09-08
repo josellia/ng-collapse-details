@@ -1,6 +1,7 @@
 # NgxCollapseDetails
 
-![logo-collapse](https://user-images.githubusercontent.com/33287490/188516814-8877a331-218f-4221-a2ca-a89a4da815b7.png)
+
+![logo-details](https://user-images.githubusercontent.com/33287490/189240150-f8d46a28-94cc-4a7e-9715-6bdc7c54267d.png)
 
 
 <div style="display: inline_block">
