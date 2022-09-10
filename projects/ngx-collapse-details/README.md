@@ -83,5 +83,5 @@ This component is an abstraction of a collapse, but using native HTML properties
 | color        | string |          | Color of summary                  |
 | colorHover   | string |          | Color hover of summary            |
 | borderRadius | string |          | Border radius of summary          |
-| border       | string |          | Border of summary                 |
+| borderDetail | string |          | Border of summary                 |
 | boxShadow    | string |          | Box shadow of summary             |

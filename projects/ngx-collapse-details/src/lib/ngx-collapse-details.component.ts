@@ -15,9 +15,9 @@ import {
           #asHover
           [ngStyle]="{
             'background-color': bgColor,
-            color: color,
+            'color': color,
             'border-radius': borderRadius,
-            border: border,
+            'border': borderDetail,
             'box-shadow': boxShadow
           }"
           (mouseenter)="setHoverBgAndColor($event)"
@@ -68,10 +68,12 @@ import {
         from {
           opacity: 0;
           margin-top: -10px;
+          transform: scaleY(0);
         }
         to {
           opacity: 1;
           margin-top: 0;
+          transform: scaleY(1)
         }
       }
 
@@ -91,7 +93,7 @@ export class NgxCollapseDetailsComponent {
   @Input() bgHover = '#ffa500';
   @Input() colorHover = '#000';
   @Input() borderRadius = '0.3em';
-  @Input() border!: string;
+  @Input() borderDetail = 'none';
   @Input() boxShadow = '0 3px 10px rgb(0 0 0 / 0.2)';
 
   constructor(private rendered2: Renderer2) {}
